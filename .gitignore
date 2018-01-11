@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+
+# exclude everything below
+*.so
+*.*~
+rootfiles
+*_ACLiC_dict.h
+*_ACLiC_linkdef.h
+*.root
+*.eps
+*.pdf
+*.png
+*.txt
+*.swp
+WeightOut.cc
+wgtCompare.C
