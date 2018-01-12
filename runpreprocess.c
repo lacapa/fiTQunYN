@@ -14,7 +14,8 @@
  preProcess* preproc = new preProcess();
 // preproc->setParFileName("shimpars.dat");
 // preproc->setParFileName("dryrun.dat");
- preproc->setParFileName("wetrun_lowevis.dat");
+// preproc->setParFileName("wetrun_lowevis.dat");
+ preproc->setParFileName(parfile.Data());
 // preproc->setParFileName("allevis.dat");
 // preproc->setParFileName("cosmicpars.dat");
 // preproc->setRFGDir("/nfs/data41/t2k/amissert/skdata/atmospheric/sf_rfg/");
