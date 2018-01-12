@@ -1164,7 +1164,7 @@ preProcess::preProcess(){
   flgUseRFGWgt=0;
   
   // get ring-counting parameter (not used anymore)
-  TFile* frcpar = new TFile("./data/SingleRingness.root");
+  //  TFile* frcpar = new TFile("./data/SingleRingness.root");
  
   // get atm norm
    double fMCyr = 400.;

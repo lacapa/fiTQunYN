@@ -46,3 +46,5 @@ rootfiles
 *.swp
 WeightOut.cc
 wgtCompare.C
+
+log

@@ -56,8 +56,10 @@ $$ PREPROC PARAMETERS $$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 $$ OUTPUT DIRECTORY FOR THE PROCESSED FILES 
-s,preProcessOutDir=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/;
-s,preProcessFilesMC=/nfs/data41/t2k/amissert/skdata/atmospheric/cris_ntuple/atm*.root;
+$$ YN: modified 
+$s,preProcessOutDir=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/;
+s,preProcessOutDir=/usr/users/ynagai/data44/T2K/tmp/lowevis_allevis/;
+s,preProcessFilesMC=/nfs/data41/t2k/amissert/skdata/atmospheric/cris_ntuple/atm_001.root;
 s,preProcessFilesData=/nfs/data41/t2k/amissert/skdata/atmospheric/data_cris_mar15/ap*.root;
 
 $$ CODE FOR FV BINNING
@@ -114,7 +116,9 @@ $$ HFACTORY PARAMETERS $$$$$$$$$$$$$$$$$$$$$$$$
 $$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 $$ OUTPUT FILE FOR FILLED HISTOGRAMS
-s,hFactoryOutput=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/histos_run4.root;
+$ YN: modified 
+$s,hFactoryOutput=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/histos_run4.root;
+s,hFactoryOutput=/usr/users/ynagai/data44/T2K/tmp/lowevis_allevis/histos_run4.root;
 
 $$ PROCESSED MC FILES
 s,hFactoryMCFiles=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/*run4*ppmc*.root;
