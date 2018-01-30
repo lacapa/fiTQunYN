@@ -59,7 +59,7 @@ $$ OUTPUT DIRECTORY FOR THE PROCESSED FILES
 $$ YN: modified 
 $s,preProcessOutDir=/nfs/data41/t2k/amissert/processed/wetrun/jun27lowevis_allevis/;
 s,preProcessOutDir=/usr/users/ynagai/data44/T2K/tmp/lowevis_allevis/;
-s,preProcessFilesMC=/nfs/data41/t2k/amissert/skdata/atmospheric/cris_ntuple/atm_001.root;
+s,preProcessFilesMC=/nfs/data41/t2k/amissert/skdata/atmospheric/cris_ntuple/atm_*.root;
 s,preProcessFilesData=/nfs/data41/t2k/amissert/skdata/atmospheric/data_cris_mar15/ap*.root;
 
 $$ CODE FOR FV BINNING

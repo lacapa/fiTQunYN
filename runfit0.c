@@ -2,15 +2,15 @@
   
  ///////////////////////////////////////
  // parameter file
- TString parfile = "wetrun_newrc.dat";
-// TString parfile = "wetrun_lowevis.dat";
+  // TString parfile = "wetrun_newrc.dat";
+ TString parfile = "wetrun_lowevis.dat";
  ///////////////////////////////////////
 
  gROOT->ProcessLine(".L histoManager.cxx+");
  gROOT->ProcessLine(".L hSplines.cxx+");
  gROOT->ProcessLine(".L histoCompare.cxx++");
  gROOT->ProcessLine(".L atmFitPars.cxx+");
- gROOT->ProcessLine(".x ~/style.c");
+ gROOT->ProcessLine(".x style.c");
  gStyle->SetOptTitle(1);
  gStyle->SetMarkerStyle(1);
 
